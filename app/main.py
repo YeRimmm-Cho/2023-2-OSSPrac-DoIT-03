@@ -14,10 +14,10 @@ def result():
         result['Student Number']=request.form.get('StudentNumber')
         result['University']=request.form.get('university')
         result['Major']=request.form.get('major')
+        result['Gender']=request.form.get('gender')
         email = request.form.get('email')
         domain = request.form.get('domain')
         result['Email'] = email + '@' + domain
-        result['Gender']=request.form.get('gender')
         languages = request.form.getlist('Programming Languages')
         result['Languages'] = ', '.join(languages)
         return render_template('result.html',result=result)
