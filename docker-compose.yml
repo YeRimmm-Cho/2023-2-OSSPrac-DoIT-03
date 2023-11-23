@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  app:
+  web:
     build: .
-    image: juwonchoe/flask:3.0
+    image: vkslvkd1007/flask:3.0
     ports:
       - "8080:80"
