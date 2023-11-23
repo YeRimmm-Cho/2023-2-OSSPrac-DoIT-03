@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  web:
+  app:
     build: .
     image: vkslvkd1007/flask:3.0
     ports:
