@@ -6,4 +6,4 @@ services:
     image: juwonchoe/flask:3.0
     ports:
       - "8080:80"
-    container_name: doit
+    container_name: doit
