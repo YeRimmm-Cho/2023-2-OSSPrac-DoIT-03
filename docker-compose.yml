@@ -3,6 +3,7 @@ version: '3'
 services:
   app:
     build: .
-    image: vkslvkd1007/flask:3.0
+    image: ${DOCKER_USR}/doit
     ports:
       - "8080:80"
+    container_name: doit
